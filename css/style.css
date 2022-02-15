@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+#hero {
+    background: url(../img/baytik.png);
+    no-repeat center/cover;
+    min-height: 100vh;
+}
